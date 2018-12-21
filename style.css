@@ -1,0 +1,37 @@
+.center-text {
+    text-align: center;
+}
+
+.monospace{
+    font-family: Courier New;
+}
+
+body{
+    background-color: #dddcdc;
+    font-family: Verdana;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.mainBody{
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+}
+
+.left{
+    margin: 5em;
+}
+
+.right{
+    float:right;
+    width:50%;
+}
+
+.enlarge{
+    size:"300";
+}

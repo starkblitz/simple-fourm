@@ -1,0 +1,82 @@
+<!-- This web page will ask the user for feedback and then stores them in a local database.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <title>Your Feedback!</title>
+    </head>
+
+
+    <body>
+        <div class="mainBody">
+            <h1 class="center-text monospace">
+                This is a front-end to store your feedback
+            </h1>
+
+            <form>
+
+                <p> 
+
+                    <label class="left">    Name:   </label> 
+                    
+                    <label class="right">    <input type="text" id="name-user">    </label>
+
+                </p>
+
+
+                <p> 
+
+                    <label class="left">    E-Mail Adress:  </label>  
+                    
+                    <label class="right">    <input type="text" >    </label>
+
+                </p>
+
+
+                <p> 
+
+                        <label class="left">    Feedback:   </label>  
+                        
+                        <label class="right enlarge">    <input type="text" >    </label>
+    
+                </p>
+
+
+
+
+                <br>
+
+                <p class="center-text">
+
+                    <input type="submit" id="submit-button"> 
+
+                </p>
+
+               <script type="text/javascript">
+
+               
+
+            
+               
+               
+
+               document.getElementById("submit-button").onclick= function () {
+                let name="";
+               
+               name= document.getElementById("name-user").value;
+                    alert("Dear "+ document.getElementById("name-user").value + ", your feedback has been submitted!");
+
+
+               }
+               
+               
+               
+               
+               </script>
+
+
+
+            </form>
+        </div>
+    </body>
+</html>
